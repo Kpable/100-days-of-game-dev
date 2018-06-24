@@ -53,11 +53,11 @@
 
 A bunch of squares and circles being spawned
 
-![Day 1 Example](https://raw.githubusercontent.com/kpable/100-days-of-code/master/images/day1-object-pools/object-pooling-2.gif)
+![Day 1 Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day1-object-pools/object-pooling-2.gif)
 
 Heirarchy cleanup
 
-![Day 1 Example](https://raw.githubusercontent.com/kpable/100-days-of-code/master/images/day1-object-pools/parenting.gif)
+![Day 1 Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day1-object-pools/parenting.gif)
 
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/object-pools/Assets/Misc/Object%20Pools)
 
