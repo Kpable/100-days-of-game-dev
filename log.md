@@ -46,18 +46,16 @@
 **Details**:
   - Went through brackeys tutorial on [Object Pooling](https://www.youtube.com/watch?v=tdSmKaJvCoA).
   - Looking at other resources to see other implementations to improve usability. 
-  - Did a little clean up in the heirarchy to make pools managable
+  - Did a little clean up in the hierarchy to make pools manageable
 
-**Thoughts** I've always been curious, never really had a need to implement them. I worked on a shmup for a [Ludem Dare 41](https://github.com/Kpable/Dimensional-Rift-Escape) and I think this would be good to implement in that for when i continue work on it. All those bullets flying around. Plus i think i recall back when i played a MegaMan game, where i could only shoot 3-4 bullets before the first bullet i shot vanished to be the new bullet i fired. 
+**Thoughts** I've always been curious, never really had a need to implement them. I worked on a shmup for a [Ludem Dare 41](https://github.com/Kpable/Dimensional-Rift-Escape) and I think this would be good to implement in that for when I continue work on it. All those bullets flying around. Plus I think I recall back when I played a MegaMan game, where I could only shoot 3-4 bullets before the first bullet I shot vanished to be the new bullet I fired. 
 
 **Examples**: 
 
-A bunch of squares and circles being spawned
-
+#### A bunch of squares and circles being spawned
 ![Day 1 Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day1-object-pools/object-pooling-2.gif)
 
-Heirarchy cleanup
-
+#### Hierarchy cleanup
 ![Day 1 Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day1-object-pools/parenting.gif)
 
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/object-pools/Assets/Misc/Object%20Pools)
@@ -71,18 +69,18 @@ Heirarchy cleanup
 
 **Details**:
   - Taking a look at the mechanics around 2D spaceship behaviors
-  - Looked at implentation without using the RigidBody2D component
+  - Looked at implementation without using the RigidBody2D component
   - Looked at implementation using the RigidBody2D component
-  - Still curious about implmentation withouth the built in physics, but went with the built in physics for now. 
+  - Still curious about implementation without the built in physics, but went with the built in physics for now. 
 
-**Thoughts** So that shmup i mentioned yesterday, [Ludem Dare 41](https://github.com/Kpable/Dimensional-Rift-Escape), I threw together some quick and dirty ship movement modified from some tutorial that i had seen some time ago. It's for this reason, and the fact that i have an outstanding task from Jan. 2016 to complete a 10 game beginner developer challenge which including cloning asteroids, is why i'm taking a closer look at this. 
+**Thoughts** So that shmup I mentioned yesterday, [Ludem Dare 41](https://github.com/Kpable/Dimensional-Rift-Escape), I threw together some quick and dirty ship movement modified from some tutorial that I had seen some time ago. It's for this reason, and the fact that I have an outstanding task from Jan. 2016 to complete a 10 game beginner developer challenge which including cloning asteroids, is why I'm taking a closer look at this. 
 
 **Examples**: 
 
-Movement without a RigidBody2D
+#### Movement without a RigidBody2D
 ![Spaceship behavior Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day2-spaceship-behavior/spaceship-behavior.gif) 
 
-Movement with a RigidBody2D
+#### Movement with a RigidBody2D
 ![Spaceship behavior RigidBody2D Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day2-spaceship-behavior/spaceship-behavior-rigidbody2d.gif) 
 
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/spaceship-behavior/Assets/Misc/Spaceship%20Behavior)
@@ -100,24 +98,23 @@ Movement with a RigidBody2D
   - Got distracted for a bit and wondered if I can quickly tweak the Spaceship behavior to act as a lander. 
 
 
-**Thoughts** I want to get the world wrap set up so that its not a sudden jump. I remembered reading an article, watching a video, and/or reading some design secrets in which instead of performing some fancy math and rendering magic, the appearance of the ship being sliced as it goes off screen and the other half showing up in the wrapped other side was done by creating ghost copies of the sprite that always follow the player's rotation and relative position. I dont know how this is going to work once more object need that "ghost" effect but we'll find out right. 
+**Thoughts** I want to get the world wrap set up so that its not a sudden jump. I remembered reading an article, watching a video, and/or reading some design secrets in which instead of performing some fancy math and rendering magic, the appearance of the ship being sliced as it goes off screen and the other half showing up in the wrapped other side was done by creating ghost copies of the sprite that always follow the player's rotation and relative position. I don't know how this is going to work once more object need that "ghost" effect but we'll find out right. 
 
 **Examples**: 
 
-Sprite split effect I was looking for 
+#### Sprite split effect I was looking for 
 ![World Wrap "Ghosting" Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day3-world-wrap/ship-split.gif) 
 
-Behind the scenes in the editor
+#### Behind the scenes in the editor
 ![World Wrap "Ghosting" In Editor](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day3-world-wrap/ship-split-editor.gif) 
 
-Also my lander curiousity
-![Lander behavior Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day3-world-wrap/lander.gif.gif) 
+#### Also my lander curiousity
+![Lander behavior Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day3-world-wrap/lander.gif) 
 
 
 **Link(s) to work**:
-[Github (Spaceship)](https://github.com/Kpable/Kpable-Labs/tree/misc/spaceship-behavior/Assets/Misc/Spaceship%20Behavior)
-[Github (Lander)](https://github.com/Kpable/Kpable-Labs/tree/misc/spaceship-behavior/Assets/Misc/Lander%20Behavior)
+- [Github (Spaceship)](https://github.com/Kpable/Kpable-Labs/tree/misc/spaceship-behavior/Assets/Misc/Spaceship%20Behavior)
+- [Github (Lander)](https://github.com/Kpable/Kpable-Labs/tree/misc/spaceship-behavior/Assets/Misc/Lander%20Behavior)
 
 [Table of Contents](#toc)
 ----------
-
