@@ -184,13 +184,13 @@
 **Examples**: 
 
 #### Meteor Splitting up
-![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitting-behavior/meteor-splitting.gif) 
+![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/meteor-splitting.gif) 
 
 #### Splitting Parameters
-![Splitting Paramters](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitting-behavior/split-params.gif) 
+![Splitting Paramters](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/split-params.gif) 
 
 #### Passing the Params Along
-![Passing Parameters](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitting-behavior/split-function.gif) 
+![Passing Parameters](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/split-function.gif) 
 
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
 
