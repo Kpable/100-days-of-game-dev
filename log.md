@@ -7,6 +7,7 @@
 |[Day 1](#day-1) **06/24/18**|Object Pooling|[Day 2](#day-2) **06/25/18**| Spaceship Behavior |
 |[Day 3](#day-3) **06/26/18**|Shmup World Wrap|[Day 4](#day-4) **06/27/18**| Shmup Weapons |
 |[Day 5](#day-5) **06/28/18**|Health on Meteors|[Day 6](#day-6) **06/29/18**| Environmental Hazard - Splitter |
+|[Day 5](#day-7) **06/30/18**|TBD|[Day 8](#day-8) **07/01/18**| TBD |
 
 <!-- ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
@@ -125,12 +126,12 @@
 **Today's Focus**: Shmup Weapons systems 
 
 **Details**:
-  - Imported weapons impletation from older tutorial. Not final but good enough to get a handle on how to implement weapons sytem. 
+  - Imported weapons implementation from older tutorial. Not final but good enough to get a handle on how to implement weapons system. 
   - Updated projectiles to utilize previously done object pooling. 
   - Ensuring projectiles share rotation on ship when firing. 
 
 
-**Thoughts** I remembered a tutorial i completed a while ago in which a similar weapons system was implemented. That imlpentation didnt utilize object pools and was more of the strafe left and right kind of shmup but i liked how the weapon details were defined in one place and it was retrieved when setting the projectile type. 
+**Thoughts** I remembered a tutorial I completed a while ago in which a similar weapons system was implemented. That implementation didn't utilize object pools and was more of the strafe left and right kind of shmup but I liked how the weapon details were defined in one place and it was retrieved when setting the projectile type. 
 
 **Examples**: 
 
@@ -151,12 +152,12 @@
 **Today's Focus**: Health and Destroying objects
 
 **Details**:
-  - Stop projectiles from colliding with each other 
-  - Process projectiles impacting another object with health
-  - Reduce that object's health by damage dealt by projectile
+  - Stopped projectiles from colliding with each other 
+  - Processed projectiles impacting another object with health
+  - Reduced that object's health by damage dealt by projectile
   - Destroy the object when health reaches zero
 
-**Thoughts** Kinda cheated a bit here since health is something i've coded and used before so not a new thing to look at but i'm doing this to see how these different shmup components need to interact with one another so i went with it. The more i use it, the more i get to find areas of improvement for it.This is all leading to something.. 
+**Thoughts** Kinda cheated a bit here since health is something I've coded and used before so not a new thing to look at but I'm doing this to see how these different shmup components need to interact with one another so I went with it. The more I use it, the more I get to find areas of improvement for it. This is all leading to something.. 
 
 **Examples**: 
 
@@ -171,14 +172,14 @@
 <a name="day-6"></a>
 ### Day 6: June 29, 2018 
 
-**Today's Focus**: Splitter Behavior (Enviromental Hazard)
+**Today's Focus**: Splitter Behavior (Environmental Hazard)
 
 **Details**:
   - Have meteor split into smaller copies of itself
-  - Pass informtion onto smaller copies. 
+  - Pass splitting information onto smaller copies. 
   - Pooled Meteors since splitting them makes a lot. 
 
-**Thoughts** So i dub these kinds of behaviors enviromental hazards because in looking at some common themes among platformers and some other types of games, theres often an enemy that when you do enough damage to kill it, it splits off into smaller weaker versions of itself that do the same thing until you've killed enough. Like the blob creatures from Ori and the Blind Forest, giant manta may from Super Mario Sunshine, Some Goombas in Mario, etc.  There are others i want to look at like crawlers, spine shooters (always shoot like 3-5 needles), droppers (hang from the ceiling until you pass under them) etc. This one is just currently applicable. 
+**Thoughts** So I dub these kinds of behaviors environmental hazards because in looking at some common themes among platformers and some other types of games, there's often an enemy that when you do enough damage to kill it, it splits off into smaller weaker versions of itself that do the same thing until you've killed enough. Like the blob creatures from Ori and the Blind Forest, giant manta may from Super Mario Sunshine, Some Goombas in Mario, etc.  There are others I want to look at like crawlers, spine shooters (always shoot like 3-5 needles), droppers (hang from the ceiling until you pass under them) etc. This one is just currently applicable. 
 
 **Examples**: 
 
