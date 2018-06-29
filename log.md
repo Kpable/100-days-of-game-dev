@@ -6,7 +6,7 @@
 |:---:|:-----:|:---:|:-----:|
 |[Day 1](#day-1) **06/24/18**|Object Pooling|[Day 2](#day-2) **06/25/18**| Spaceship Behavior |
 |[Day 3](#day-3) **06/26/18**|Shmup World Wrap|[Day 4](#day-4) **06/27/18**| Shmup Weapons |
-|[Day 5](#day-5) **06/28/18**|TBD|[Day 6](#day-6) **06/29/18**| TBD |
+|[Day 5](#day-5) **06/28/18**|Health on Meteors|[Day 6](#day-6) **06/29/18**| Environmental Hazard - Splitter |
 
 <!-- ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
@@ -152,13 +152,16 @@
 
 **Details**:
   - Stop projectiles from colliding with each other 
-  - process projectiles impacting another object with health
-  - reduce that object's health by damage dealt by projectile
-**Thoughts** TBD
+  - Process projectiles impacting another object with health
+  - Reduce that object's health by damage dealt by projectile
+  - Destroy the object when health reaches zero
+
+**Thoughts** Kinda cheated a bit here since health is something i've coded and used before so not a new thing to look at but i'm doing this to see how these different shmup components need to interact with one another so i went with it. The more i use it, the more i get to find areas of improvement for it.This is all leading to something.. 
 
 **Examples**: 
 
-TBD
+#### Meteor Running out of health
+![Meteor running out of health](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day5-health/destroying-meteor.gif) 
 
 
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
