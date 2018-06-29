@@ -148,11 +148,12 @@
 <a name="day-5"></a>
 ### Day 5: June 28, 2018 
 
-**Today's Focus**: TBD
+**Today's Focus**: Health and Destroying objects
 
 **Details**:
-  - TBD
-
+  - Stop projectiles from colliding with each other 
+  - process projectiles impacting another object with health
+  - reduce that object's health by damage dealt by projectile
 **Thoughts** TBD
 
 **Examples**: 
