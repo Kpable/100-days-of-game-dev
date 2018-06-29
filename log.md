@@ -5,7 +5,8 @@
 |Day|Focus|Day|Focus|
 |:---:|:-----:|:---:|:-----:|
 |[Day 1](#day-1) **06/24/18**|Object Pooling|[Day 2](#day-2) **06/25/18**| Spaceship Behavior |
-|[Day 3](#day-3) **06/26/18**|Shmup World Wrap|[Day 4](#day-4) **06/27/18**| TBD |
+|[Day 3](#day-3) **06/26/18**|Shmup World Wrap|[Day 4](#day-4) **06/27/18**| Shmup Weapons |
+|[Day 5](#day-5) **06/28/18**|TBD|[Day 6](#day-6) **06/29/18**| TBD |
 
 <!-- ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
@@ -108,13 +109,58 @@
 #### Behind the scenes in the editor
 ![World Wrap "Ghosting" In Editor](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day3-world-wrap/ship-split-editor.gif) 
 
-#### Also my lander curiousity
+#### Also my lander ~~distraction~~ curiousity
 ![Lander behavior Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day3-world-wrap/lander.gif) 
 
 
 **Link(s) to work**:
 - [Github (Spaceship)](https://github.com/Kpable/Kpable-Labs/tree/misc/spaceship-behavior/Assets/Misc/Spaceship%20Behavior)
 - [Github (Lander)](https://github.com/Kpable/Kpable-Labs/tree/misc/spaceship-behavior/Assets/Misc/Lander%20Behavior)
+
+[Table of Contents](#toc)
+----------
+<a name="day-4"></a>
+### Day 4: June 27, 2018 
+
+**Today's Focus**: Shmup Weapons systems 
+
+**Details**:
+  - Imported weapons impletation from older tutorial. Not final but good enough to get a handle on how to implement weapons sytem. 
+  - Updated projectiles to utilize previously done object pooling. 
+  - Ensuring projectiles share rotation on ship when firing. 
+
+
+**Thoughts** I remembered a tutorial i completed a while ago in which a similar weapons system was implemented. That imlpentation didnt utilize object pools and was more of the strafe left and right kind of shmup but i liked how the weapon details were defined in one place and it was retrieved when setting the projectile type. 
+
+**Examples**: 
+
+#### Single shot blaster weapon
+![Single shot blaster Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day4-shmup-weapons/firing-blaster.gif) 
+
+#### Spread shot blaster weapon
+![Spread shot blaster Example](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day4-shmup-weapons/firing-spread.gif) 
+
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
+
+[Table of Contents](#toc)
+----------
+<a name="day-5"></a>
+### Day 5: June 28, 2018 
+
+**Today's Focus**: TBD
+
+**Details**:
+  - TBD
+
+**Thoughts** TBD
+
+**Examples**: 
+
+TBD
+
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
 
 [Table of Contents](#toc)
 ----------
