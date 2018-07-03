@@ -223,7 +223,7 @@
 #### Parallax Effect
 ![Parallax Effect](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day8-parallax-backgrounds/parallax.gif)  
 
-**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Parallax)
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/parallax/Assets/Misc/Parallax)
 
 [Table of Contents](#toc)
 ----------
