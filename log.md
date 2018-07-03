@@ -4,40 +4,32 @@
 ### Table of Contents 
 |Day|Focus|Day|Focus|
 |:---:|:-----:|:---:|:-----:|
-|[Day 1](#day-1) **06/24/18**|Object Pooling|[Day 2](#day-2) **06/25/18**| Spaceship Behavior |
-|[Day 3](#day-3) **06/26/18**|Shmup World Wrap|[Day 4](#day-4) **06/27/18**| Shmup Weapons |
-|[Day 5](#day-5) **06/28/18**|Health on Meteors|[Day 6](#day-6) **06/29/18**| Environmental Hazard - Splitter |
-|[Day 5](#day-7) **06/30/18**|TBD|[Day 8](#day-8) **07/01/18**| TBD |
+|[Day 1](#day-1) **06/24/18**| Object Pooling |[Day 2](#day-2) **06/25/18**| Spaceship Behavior |
+|[Day 3](#day-3) **06/26/18**| Shmup World Wrap |[Day 4](#day-4) **06/27/18**| Shmup Weapons |
+|[Day 5](#day-5) **06/28/18**| Health on Meteors |[Day 6](#day-6) **06/29/18**| Environmental Hazard - Splitter |
+|[Day 7](#day-7) **06/30/18**| Weapons Refactoring |[Day 8](#day-8) **07/01/18**| Paralax Backgrounds |
+|[Day 9](#day-9) **07/02/18**| TBD |[Day 10](#day-10) **07/03/18**| TBD |
 
-<!-- ### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+<!-- 
+### Day 0: June 23, 2018 
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+<a name="day-2"></a>
+### Day 2: June 25, 2018 
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Today's Focus**: Spaceship behavior
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Details**:
+  - Taking a look at the mechanics around 2D spaceship behaviors
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+**Thoughts** 
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
+**Examples**: 
 
 
-### Day 1: June 27, Monday
+**Link(s) to work**: 
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
- -->
+[Table of Contents](#toc)
+-->
 
 ----------
 <a name="day-1"></a>
@@ -196,3 +188,84 @@
 
 [Table of Contents](#toc)
 ----------
+<a name="day-7"></a>
+### Day 7: June 30 2018 
+
+**Today's Focus**: Weapons refactoring
+
+**Details**:
+  - Changed the origin of projectiles to around the ship
+
+**Thoughts** Wanted to refactor how the weapons work. Previously the i imported it from a tutorial but i want to add some more versatility. The plan is to have the gun objects circle around the ship depending on the weapon type. 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day7-weapons-refactoring/weapons-refactored.gif) 
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
+
+[Table of Contents](#toc)
+----------
+<a name="day-8"></a>
+### Day 8: July 1, 2018 
+
+**Today's Focus**: 
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/meteor-splitting.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
+
+[Table of Contents](#toc)
+----------
+
+
+<a name="day-9"></a>
+### Day 9: July 2, 2018 
+
+**Today's Focus**: 
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/meteor-splitting.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
+
+[Table of Contents](#toc)
+---------- 
+<!-- 
+<a name="day-10"></a>
+### Day 10: July 1, 2018 
+
+**Today's Focus**: 
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/meteor-splitting.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
+
+[Table of Contents](#toc)
+----------
+
+-->
