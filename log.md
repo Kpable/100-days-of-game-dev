@@ -200,8 +200,8 @@
 
 **Examples**: 
 
-#### Meteor Splitting up
-![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day7-weapons-refactoring/weapons-refactored.gif) 
+#### Spread Wepons Originating from Surrounding Objects
+![Spread Weapons](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day7-weapons-refactoring/weapons-refactored.gif) 
 
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
 
@@ -213,16 +213,17 @@
 **Today's Focus**: 
 
 **Details**:
-  - 
+  - Modified parallax implementation from a tutorial to work
+  - Stardust and stars move with respect to target object, in this case a ship. 
 
-**Thoughts** 
+**Thoughts** I completed a tutorial a while back that incorporated a parallax effect. I had to massage it a bit to get it to work right but it looks good. Theres still some work left to do to get it to work a bit nicer, but for the interim its a good start. 
 
 **Examples**: 
 
-#### Meteor Splitting up
-![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/meteor-splitting.gif)  
+#### Parallax Effect
+![Parallax Effect](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day8-parallax-backgrounds/parallax.gif)  
 
-**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Parallax)
 
 [Table of Contents](#toc)
 ----------
@@ -249,7 +250,7 @@
 ---------- 
 <!-- 
 <a name="day-10"></a>
-### Day 10: July 1, 2018 
+### Day 10: July 3, 2018 
 
 **Today's Focus**: 
 
