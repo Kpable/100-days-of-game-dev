@@ -2,14 +2,14 @@
 
 <a name="toc"></a>
 ### Table of Contents 
-|Day|Focus|Day|Focus|
-|:---:|:-----:|:---:|:-----:|
-|[Day 1](#day-1) **06/24/18**   | Object Pooling        |[Day 2](#day-2) **06/25/18**     | Spaceship Behavior              |
-|[Day 3](#day-3) **06/26/18**   | Shmup World Wrap      |[Day 4](#day-4) **06/27/18**     | Shmup Weapons                   |
-|[Day 5](#day-5) **06/28/18**   | Health on Meteors     |[Day 6](#day-6) **06/29/18**     | Environmental Hazard - Splitter |
-|[Day 7](#day-7) **06/30/18**   | Weapons Refactoring   |[Day 8](#day-8) **07/01/18**     | Paralax Backgrounds             |
-|[Day 9](#day-9) **07/02/18**   | Shmup Power Ups       |[Day 10](#day-10) **07/03/18**   | Spiral Gun Spawning             |
-|[Day 11](#day-11) **07/04/18** | TBD                   |[Day 12](#day-12) **07/05/18**   | TBD                             |
+|Day                               |Focus                  |Day                                 |Focus|
+|:--------------------------------:|:---------------------:|:----------------------------------:|:-------------------------------:|
+|[Day 1](#day-1)    **06/24/18**   | Object Pooling        |[Day 2](#day-2)    **06/25/18**     | Spaceship Behavior              |
+|[Day 3](#day-3)    **06/26/18**   | Shmup World Wrap      |[Day 4](#day-4)    **06/27/18**     | Shmup Weapons                   |
+|[Day 5](#day-5)    **06/28/18**   | Health on Meteors     |[Day 6](#day-6)    **06/29/18**     | Environmental Hazard - Splitter |
+|[Day 7](#day-7)    **06/30/18**   | Weapons Refactoring   |[Day 8](#day-8)    **07/01/18**     | Paralax Backgrounds             |
+|[Day 9](#day-9)    **07/02/18**   | Shmup Power Ups       |[Day 10](#day-10)  **07/03/18**     | Spiral Gun Spawning             |
+|[Day 11](#day-11)  **07/04/18**   | Bullet Reflection     |[Day 12](#day-12)  **07/05/18**     | TBD                             |
 
 <!-- 
 ### Day 0: June 23, 2018 
@@ -197,7 +197,7 @@
 **Details**:
   - Changed the origin of projectiles to around the ship
 
-**Thoughts** Wanted to refactor how the weapons work. Previously the i imported it from a tutorial but i want to add some more versatility. The plan is to have the gun objects circle around the ship depending on the weapon type. 
+**Thoughts** Wanted to refactor how the weapons work. Previously the I imported it from a tutorial but I want to add some more versatility. The plan is to have the gun objects circle around the ship depending on the weapon type. 
 
 **Examples**: 
 
@@ -234,10 +234,10 @@
 **Today's Focus**: Shmup Power Ups  
 
 **Details**:
-  - Inpororate power up 
+  - Incorporated power up 
   - Change weapons when the ship collides with it. 
 
-**Thoughts** These are a must of any given shmup. I had to incorporate a powerup to allow the ship to change weapons. Next step for this would be to be able to set a powerups type so that enemies can spawn powerups on death. 
+**Thoughts** These are a must of any given shmup. I had to incorporate a power-up to allow the ship to change weapons. Next step for this would be to be able to set a power-ups type so that enemies can spawn power-ups on death. 
 
 **Examples**: 
 
@@ -257,7 +257,7 @@
   - Looked into how to spawn guns around the ship
   - Had some fun with angles
 
-**Thoughts** I was having some issues with getting the projectiles to spawn from different gun locations. I also wanted to upgrade it from manually defined positions (which i would like but not right now) to just around the ship depending on the number. Right now i was only thinking with regard to single shot and triple shot but the possibilities... 
+**Thoughts** I was having some issues with getting the projectiles to spawn from different gun locations. I also wanted to upgrade it from manually defined positions (which I would like but not right now) to just around the ship depending on the number. Right now I was only thinking with regard to single shot and triple shot but the possibilities... 
 
 **Examples**: 
 
@@ -271,27 +271,27 @@
 
 [Table of Contents](#toc)
 ----------
-<!-- 
 <a name="day-11"></a>
 ### Day 11: July 4, 2018 
 
 **Today's Focus**: Laser Reflectivity
 
 **Details**:
-  - Explored Unity's line renderer
-  - 
+  - Reflect bullets of surfaces
+  - Set Fixed reflection for now
 
-**Thoughts** There was this flash game many years ago i had a blast with (ha! laser blast! punSkills++;). It was a puzzle game where you had orient some mirrors so that when the laser fired it would hit all the ballons in the level. It was fun and i have seen that mechanic show up again in other games as well. Such as Zeldas in which a dungeon required the reflection of light, most recently in Song of the Deep in which some reflective shells needed to be rotated to trigger doors or switches. I wanted to look at how that could be incorporated. 
+**Thoughts** There was this Dexter's Laser Lab flash game many years ago I had a blast with (ha! laser blast! punSkills++;). It was a puzzle game where you had orient some mirrors so that when the laser fired it would hit all the balloons in the level. It was fun and I have seen that mechanic show up again in other games as well. Such as Zeldas in which a dungeon required the reflection of light, most recently in Song of the Deep in which some reflective shells needed to be rotated to trigger doors or switches. I wanted to look at how that could be incorporated. For now though, i got some fixed reflection going so that bullets will bounce in the direction the reflective object states. Next step, doing it dynamically with raycasts and line renderer. 
 
 **Examples**: 
 
-#### Meteor Splitting up
-![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/meteor-splitting.gif)  
+#### Fixed Bullet Reflection
+![Bullets bouncing off surfaces](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day11-lasers/fixed-reflection.gif)  
 
-**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/lasers/Assets/Misc/Lasers)
 
 [Table of Contents](#toc)
 ----------
+<!--
 <a name="day-12"></a>
 ### Day 12: July 5, 2018 
 
