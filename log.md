@@ -4,11 +4,12 @@
 ### Table of Contents 
 |Day|Focus|Day|Focus|
 |:---:|:-----:|:---:|:-----:|
-|[Day 1](#day-1) **06/24/18**| Object Pooling |[Day 2](#day-2) **06/25/18**| Spaceship Behavior |
-|[Day 3](#day-3) **06/26/18**| Shmup World Wrap |[Day 4](#day-4) **06/27/18**| Shmup Weapons |
-|[Day 5](#day-5) **06/28/18**| Health on Meteors |[Day 6](#day-6) **06/29/18**| Environmental Hazard - Splitter |
-|[Day 7](#day-7) **06/30/18**| Weapons Refactoring |[Day 8](#day-8) **07/01/18**| Paralax Backgrounds |
-|[Day 9](#day-9) **07/02/18**| TBD |[Day 10](#day-10) **07/03/18**| TBD |
+|[Day 1](#day-1) **06/24/18**   | Object Pooling        |[Day 2](#day-2) **06/25/18**     | Spaceship Behavior              |
+|[Day 3](#day-3) **06/26/18**   | Shmup World Wrap      |[Day 4](#day-4) **06/27/18**     | Shmup Weapons                   |
+|[Day 5](#day-5) **06/28/18**   | Health on Meteors     |[Day 6](#day-6) **06/29/18**     | Environmental Hazard - Splitter |
+|[Day 7](#day-7) **06/30/18**   | Weapons Refactoring   |[Day 8](#day-8) **07/01/18**     | Paralax Backgrounds             |
+|[Day 9](#day-9) **07/02/18**   | Shmup Power Ups       |[Day 10](#day-10) **07/03/18**   | Spiral Gun Spawning             |
+|[Day 11](#day-11) **07/04/18** | TBD                   |[Day 12](#day-12) **07/05/18**   | TBD                             |
 
 <!-- 
 ### Day 0: June 23, 2018 
@@ -210,7 +211,7 @@
 <a name="day-8"></a>
 ### Day 8: July 1, 2018 
 
-**Today's Focus**: 
+**Today's Focus**: Parallax Backgrounds
 
 **Details**:
   - Modified parallax implementation from a tutorial to work
@@ -227,12 +228,74 @@
 
 [Table of Contents](#toc)
 ----------
-
-
 <a name="day-9"></a>
 ### Day 9: July 2, 2018 
 
-**Today's Focus**: 
+**Today's Focus**: Shmup Power Ups  
+
+**Details**:
+  - Inpororate power up 
+  - Change weapons when the ship collides with it. 
+
+**Thoughts** These are a must of any given shmup. I had to incorporate a powerup to allow the ship to change weapons. Next step for this would be to be able to set a powerups type so that enemies can spawn powerups on death. 
+
+**Examples**: 
+
+#### Ship hitting power ups
+![Power ups in effect](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day9-power-ups/power-ups.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/develop/Assets/Misc/Power%20Ups)
+
+[Table of Contents](#toc)
+---------- 
+<a name="day-10"></a>
+### Day 10: July 3, 2018 
+
+**Today's Focus**: Weapon Redux - Spiral Guns
+
+**Details**:
+  - Looked into how to spawn guns around the ship
+  - Had some fun with angles
+
+**Thoughts** I was having some issues with getting the projectiles to spawn from different gun locations. I also wanted to upgrade it from manually defined positions (which i would like but not right now) to just around the ship depending on the number. Right now i was only thinking with regard to single shot and triple shot but the possibilities... 
+
+**Examples**: 
+
+#### Changing Number of Guns
+![Spiral Gun Spawning](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day10-spiral-guns/gun-spawning.gif)  
+
+#### Fun with Angles
+![Spiral Gun Spawning Code](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day10-spiral-guns/angle-code.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/develop/Assets/Misc/Shmup%20Weapons)
+
+[Table of Contents](#toc)
+----------
+<!-- 
+<a name="day-11"></a>
+### Day 11: July 4, 2018 
+
+**Today's Focus**: Laser Reflectivity
+
+**Details**:
+  - Explored Unity's line renderer
+  - 
+
+**Thoughts** There was this flash game many years ago i had a blast with (ha! laser blast! punSkills++;). It was a puzzle game where you had orient some mirrors so that when the laser fired it would hit all the ballons in the level. It was fun and i have seen that mechanic show up again in other games as well. Such as Zeldas in which a dungeon required the reflection of light, most recently in Song of the Deep in which some reflective shells needed to be rotated to trigger doors or switches. I wanted to look at how that could be incorporated. 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/meteor-splitting.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
+
+[Table of Contents](#toc)
+----------
+<a name="day-12"></a>
+### Day 12: July 5, 2018 
+
+**Today's Focus**: Asteriods Clone
 
 **Details**:
   - 
@@ -248,25 +311,5 @@
 
 [Table of Contents](#toc)
 ---------- 
-<!-- 
-<a name="day-10"></a>
-### Day 10: July 3, 2018 
-
-**Today's Focus**: 
-
-**Details**:
-  - 
-
-**Thoughts** 
-
-**Examples**: 
-
-#### Meteor Splitting up
-![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/meteor-splitting.gif)  
-
-**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
-
-[Table of Contents](#toc)
-----------
 
 -->
