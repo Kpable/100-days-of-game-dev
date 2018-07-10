@@ -2,14 +2,18 @@
 
 <a name="toc"></a>
 ### Table of Contents 
-|Day                               |Focus                  |Day                                 |Focus|
-|:--------------------------------:|:---------------------:|:----------------------------------:|:-------------------------------:|
-|[Day 1](#day-1)    **06/24/18**   | Object Pooling        |[Day 2](#day-2)    **06/25/18**     | Spaceship Behavior              |
-|[Day 3](#day-3)    **06/26/18**   | Shmup World Wrap      |[Day 4](#day-4)    **06/27/18**     | Shmup Weapons                   |
-|[Day 5](#day-5)    **06/28/18**   | Health on Meteors     |[Day 6](#day-6)    **06/29/18**     | Environmental Hazard - Splitter |
-|[Day 7](#day-7)    **06/30/18**   | Weapons Refactoring   |[Day 8](#day-8)    **07/01/18**     | Paralax Backgrounds             |
-|[Day 9](#day-9)    **07/02/18**   | Shmup Power Ups       |[Day 10](#day-10)  **07/03/18**     | Spiral Gun Spawning             |
-|[Day 11](#day-11)  **07/04/18**   | Bullet Reflection     |[Day 12](#day-12)  **07/05/18**     | TBD                             |
+|Day                               |Focus                                   |Day                                 |Focus                                 |
+|:--------------------------------:|:--------------------------------------:|:----------------------------------:|:------------------------------------:|
+|[Day 1](#day-1)    **06/24/18**   | Object Pooling                         |[Day 2](#day-2)    **06/25/18**     | Spaceship Behavior                   |
+|[Day 3](#day-3)    **06/26/18**   | Shmup World Wrap                       |[Day 4](#day-4)    **06/27/18**     | Shmup Weapons                        |
+|[Day 5](#day-5)    **06/28/18**   | Health on Meteors                      |[Day 6](#day-6)    **06/29/18**     | Environmental Hazard - Splitter      |
+|[Day 7](#day-7)    **06/30/18**   | Weapons Refactoring                    |[Day 8](#day-8)    **07/01/18**     | Paralax Backgrounds                  |
+|[Day 9](#day-9)    **07/02/18**   | Shmup Power Ups                        |[Day 10](#day-10)  **07/03/18**     | Spiral Gun Spawning                  |
+|[Day 11](#day-11)  **07/04/18**   | Bullet Reflection                      |[Day 12](#day-12)  **07/05/18**     | Steering Behavior - Seek             |
+|[Day 13](#day-13)  **07/06/18**   | Steering Behavior - Arrive             |[Day 14](#day-14)  **07/07/18**     | Steering Behavior - Flee             |
+|[Day 15](#day-15)  **07/08/18**   | Steering Behavior - Evade              |[Day 16](#day-16)  **07/09/18**     | Steering Behavior - Wander           |
+|[Day 17](#day-17)  **07/10/18**   | Steering Behavior - Obstacle Avoidance |[Day 18](#day-18)  **07/11/18**     | Steering Behavior - Wall Avoidance   |
+|[Day 19](#day-19)  **07/12/18**   | Steering Behavior - Pursuit            |[Day 20](#day-20)  **07/13/18**     | Steering Behavior - TBD              |
 
 <!-- 
 ### Day 0: June 23, 2018 
@@ -274,7 +278,7 @@
 <a name="day-11"></a>
 ### Day 11: July 4, 2018 
 
-**Today's Focus**: Laser Reflectivity
+**Today's Focus**: Bullet Reflection
 
 **Details**:
   - Reflect bullets of surfaces
@@ -291,11 +295,167 @@
 
 [Table of Contents](#toc)
 ----------
-<!--
 <a name="day-12"></a>
 ### Day 12: July 5, 2018 
 
-**Today's Focus**: Asteriods Clone
+**Today's Focus**: Steering Behaviors - Seek
+
+**Details**:
+  - Created a Vehicle object
+  - Applied Seek Behavior
+  - Made Space Invader for fun
+
+**Thoughts** AI is a big interest to me but I have yet to really dive into learning some concepts. Steering Behaviors are a good place to start I think. A lot of this i've looked at briefly in the past and even created a Unity implementation of the code written in [Programming Game AI by Example](https://www.amazon.com/Programming-Example-Wordware-Developers-Library/dp/1556220782). I never fully got a grasp of all of the concept and eventually moved on to other topics of interest but this is something (like everything that I've previously committed to) that I don't want to give up on. This will be a good way to take a real good look at these behaviors and learn what's going on with them. I'm using [The Coding Train](https://www.youtube.com/watch?v=4hA7G3gup-4) as reference as well. 
+
+**Examples**: 
+
+#### Seek Behavior
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+---------- 
+<a name="day-13"></a>
+### Day 13: July 6, 2018 
+
+**Today's Focus**: Steering Behaviors - Arrive
+
+**Details**:
+  - Implement Arrive behavior
+  - Learned delta time with these behaviors doesn't need to be directly applied as each frame will update all needed values
+  - Learned difference between clamp and multiply
+  - Learned obvious in hindsight lessons
+
+**Thoughts** I put a lot of "learned" in the details because I spent a lot of time debugging this bevaior for 3 reasons. The first, arrive should you know arrive and that wasn't what I was seeing. This was because I was multiplying Time.deltaTime to the acceleration unecesesarily. It was giving me odd behavior. Second, I inteded to clamp the steering force to the max force of the vehicle but while my mind thought, "hmm this is clamping", what the code rightly saw was "hmm this steering force will be multiplied to max, got it". Once that finally stood out, problem three was a silly one. I had left seek behavior active when I was testing arrive. This resulted in arrive behavior with a giggle once it arrived as seek would always move past the mark and return. Seek has no chill and will always move at max force. 
+
+**Examples**: 
+
+#### Arrive Behavior
+![Arrive Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day13-sb-arrive/arrive.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+---------- 
+<a name="day-14"></a>
+### Day 14: July 7, 2018 
+
+**Today's Focus**: Steering Behaviors - Flee
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Flee Behavior
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+---------- 
+<a name="day-15"></a>
+### Day 15: July 8, 2018 
+
+**Today's Focus**: Steering Behaviors - Evade
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Evade Behavior
+![Evade Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+---------- 
+<a name="day-16"></a>
+### Day 16: July 9, 2018 
+
+**Today's Focus**: Steering Behaviors - Wander
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Wander Behavior
+![Wander Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+---------- 
+<a name="day-17"></a>
+### Day 17: July 10, 2018 
+
+**Today's Focus**: Steering Behaviors - Obstacle Avoidance
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Obstacle Avoidance
+![Obstacle Avoidance Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+---------- 
+<a name="day-18"></a>
+### Day 18: July 11, 2018 
+
+**Today's Focus**: Steering Behaviors - Wall Avoidance
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Wall Avoidance
+![Wall Avoidance Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+---------- 
+<a name="day-19"></a>
+### Day 19: July 12, 2018 
+
+**Today's Focus**: Steering Behaviors - Pursuit
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Pursuit Behavior
+![Pursuit Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+---------- 
+<!-- <a name="day-20"></a>
+### Day 20: July 13, 2018 
+
+**Today's Focus**: Steering Behaviors - TBD
 
 **Details**:
   - 
@@ -305,11 +465,9 @@
 **Examples**: 
 
 #### Meteor Splitting up
-![Meteor Splitting up](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/meteor-splitting.gif)  
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
 
-**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/shmup-weapons/Assets/Misc/Shmup%20Weapons)
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
 
 [Table of Contents](#toc)
----------- 
-
--->
+----------  -->
