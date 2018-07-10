@@ -334,6 +334,9 @@
 #### Arrive Behavior
 ![Arrive Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day13-sb-arrive/arrive.gif)  
 
+#### Wiggles
+![Arrive and Seek Behavior = Wiggles](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day13-sb-arrive/wiggles.gif)  
+
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
 
 [Table of Contents](#toc)
