@@ -13,7 +13,8 @@
 |[Day 13](#day-13)  **07/06/18**   | Steering Behavior - Arrive             |[Day 14](#day-14)  **07/07/18**     | Steering Behavior - Flee             |
 |[Day 15](#day-15)  **07/08/18**   | Steering Behavior - Evade              |[Day 16](#day-16)  **07/09/18**     | Steering Behavior - Wander           |
 |[Day 17](#day-17)  **07/10/18**   | Steering Behavior - Obstacle Avoidance |[Day 18](#day-18)  **07/11/18**     | Steering Behavior - Wall Avoidance   |
-|[Day 19](#day-19)  **07/12/18**   | Steering Behavior - Pursuit            |[Day 20](#day-20)  **07/13/18**     | Steering Behavior - TBD              |
+|[Day 19](#day-19)  **07/12/18**   | Steering Behavior - Pursuit            |[Day 20](#day-20)  **07/13/18**     | Steering Behavior - Hide             |
+|[Day 21](#day-21)  **07/14/18**   | Steering Behavior - Path Following     |[Day 22](#day-22)  **07/15/18**     | TBD                                  |
 
 <!-- 
 ### Day 0: June 23, 2018 
@@ -369,7 +370,7 @@
 **Today's Focus**: Steering Behaviors - Evade
 
 **Details**:
-  - 
+  - Implemented Evade
 
 **Thoughts** 
 
@@ -458,10 +459,10 @@
 
 [Table of Contents](#toc)
 ---------- 
-<!-- <a name="day-20"></a>
+<a name="day-20"></a>
 ### Day 20: July 13, 2018 
 
-**Today's Focus**: Steering Behaviors - TBD
+**Today's Focus**: Steering Behaviors - Hide
 
 **Details**:
   - 
@@ -476,4 +477,4 @@
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
 
 [Table of Contents](#toc)
-----------  -->
+----------
