@@ -14,7 +14,11 @@
 |[Day 15](#day-15)  **07/08/18**   | Steering Behavior - Evade              |[Day 16](#day-16)  **07/09/18**     | Steering Behavior - Wander           |
 |[Day 17](#day-17)  **07/10/18**   | Steering Behavior - Obstacle Avoidance |[Day 18](#day-18)  **07/11/18**     | Steering Behavior - Wall Avoidance   |
 |[Day 19](#day-19)  **07/12/18**   | Steering Behavior - Pursuit            |[Day 20](#day-20)  **07/13/18**     | Steering Behavior - Hide             |
-|[Day 21](#day-21)  **07/14/18**   | Steering Behavior - Path Following     |[Day 22](#day-22)  **07/15/18**     | TBD                                  |
+|[Day 21](#day-21)  **07/14/18**   | Steering Behavior - Path Following     |[Day 22](#day-22)  **07/15/18**     | World Wrap 3D                        |
+|[Day 23](#day-23)  **07/16/18**   | TBD                                    |[Day 24](#day-24)  **07/17/18**     | TBD                                  |
+|[Day 25](#day-25)  **07/18/18**   | TBD                                    |[Day 26](#day-26)  **07/19/18**     | TBD                                  |
+|[Day 27](#day-27)  **07/20/18**   | TBD                                    |[Day 28](#day-28)  **07/21/18**     | TBD                                  |
+|[Day 29](#day-29)  **07/22/18**   | TBD                                    |[Day 30](#day-30)  **07/23/18**     | TBD                                  |
 
 <!-- 
 ### Day 0: June 23, 2018 
@@ -391,14 +395,19 @@
 **Today's Focus**: Steering Behaviors - Wander
 
 **Details**:
-  - 
+  - Implemented wander
+  - Struggled a lot
+  - Wrote a bunch of debug to see what was going on with the values. 
 
-**Thoughts** 
+**Thoughts** This behavior took me several days to work out. There were a lot of small difficulties that arose and then some required tweaking of parameters. First was with my random vectors, they always returned zero because of course i was using Random.Range of type int and not float. Next, was the target point wasnt translating with the vehicle position. There was more that required me to write debug code to visualize what was going on with the vector values. Got some gizmo drawing in. This made me consider adding a visualizer to the steering behaviors. Maybe a project for a later time. After 
 
 **Examples**: 
 
 #### Wander Behavior
-![Wander Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+![Wander Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day16-sb-wander/wander.gif)  
+
+#### Wander Behavior Gizmos
+![Wander Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day16-sb-wander/wander-editor.gif)  
 
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
 
@@ -410,19 +419,21 @@
 **Today's Focus**: Steering Behaviors - Obstacle Avoidance
 
 **Details**:
-  - 
+  - Implemented basic obstacle avoidance
+  - only implemeted in 2D. 
 
-**Thoughts** 
+**Thoughts** Still working with [Programming Game AI by Example](https://www.amazon.com/Programming-Example-Wordware-Developers-Library/dp/1556220782) for this one and although the concepts make sense, Implmenting them in unity from a c++ system the book describes is proving interesting as there are already helper functions to accomplish the tasks the book performs. I appreciate the long way approach though, good to know what all thoses helpers are doing. 
 
 **Examples**: 
 
 #### Obstacle Avoidance
-![Obstacle Avoidance Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+![Obstacle Avoidance Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day17-sb-obstacle-avoidance/avoidance.gif)  
 
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
 
 [Table of Contents](#toc)
 ---------- 
+<!--
 <a name="day-18"></a>
 ### Day 18: July 11, 2018 
 
@@ -480,3 +491,194 @@
 
 [Table of Contents](#toc)
 ----------
+<a name="day-21"></a>
+### Day 21: July 14, 2018 
+
+**Today's Focus**: Steering Behaviors - Path Following
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+----------
+<a name="day-22"></a>
+### Day 22: July 15, 2018 
+
+**Today's Focus**: World Wrap 3D
+
+**Details**:
+  - Took the previously implemented world wrap and expanded it to support a 3d cube world
+
+**Thoughts** This came to mind while working on the [wander steeing behavior](#day-16) when I set some agents to go off an wander and they quickly when off screen. It seemed like a good idea to implement this world wrap for 3d considerations.  
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+----------
+<a name="day-23"></a>
+### Day 23: July 16, 2018 
+
+**Today's Focus**: TBD
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+----------
+<a name="day-24"></a>
+### Day 24: July 17, 2018 
+
+**Today's Focus**: TBD
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+----------
+<a name="day-25"></a>
+### Day 25: July 18, 2018 
+
+**Today's Focus**: TBD
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+----------
+<a name="day-26"></a>
+### Day 26: July 19, 2018 
+
+**Today's Focus**: TBD
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+----------
+<a name="day-27"></a>
+### Day 27: July 20, 2018 
+
+**Today's Focus**: TBD
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+----------
+<a name="day-28"></a>
+### Day 28: July 21, 2018 
+
+**Today's Focus**: TBD
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+----------
+<a name="day-29"></a>
+### Day 29: July 22, 2018 
+
+**Today's Focus**: TBD
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+----------
+<a name="day-30"></a>
+### Day 30: July 23, 2018 
+
+**Today's Focus**: TBD
+
+**Details**:
+  - 
+
+**Thoughts** 
+
+**Examples**: 
+
+#### Meteor Splitting up
+![Seek Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day12-sb-seek/seek.gif)  
+
+**Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
+
+[Table of Contents](#toc)
+----------
+-->
