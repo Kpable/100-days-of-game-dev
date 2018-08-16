@@ -1,4 +1,4 @@
-# 100 Days Of Game Dev - Log
+# 100 Days Of Game Dev - Round 1 Log
 
 <a name="toc"></a>
 ### Table of Contents 
@@ -25,20 +25,7 @@
 <!-- 
 ### Day 0: June 23, 2018 
 
-<a name="day-2"></a>
-### Day 2: June 25, 2018 
-
-**Today's Focus**: Spaceship behavior
-
-**Details**:
-  - Taking a look at the mechanics around 2D spaceship behaviors
-
-**Thoughts** 
-
-**Examples**: 
-
-
-**Link(s) to work**: 
+Because arrays start at 0
 
 [Table of Contents](#toc)
 -->
