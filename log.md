@@ -32,7 +32,8 @@ Because arrays start at 0
 
 ----------
 <a name="day-1"></a>
-### Day 1: June 24, 2018 
+### Day 1: Object Pooling 
+#### June 24, 2018 
 
 **Today's Focus**: Learn and implement object pooling.
 
@@ -56,7 +57,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ----------
 <a name="day-2"></a>
-### Day 2: June 25, 2018 
+### Day 2: Spaceship Behavior
+#### June 25, 2018 
 
 **Today's Focus**: Spaceship behavior
 
@@ -81,7 +83,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ----------
 <a name="day-3"></a>
-### Day 3: June 26, 2018 
+### Day 3: Shmup World Wrap
+#### June 26, 2018 
 
 **Today's Focus**: Get Spaceship to World Wrap All Pretty Like
 
@@ -112,7 +115,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ----------
 <a name="day-4"></a>
-### Day 4: June 27, 2018 
+### Day 4: Shmup Weapons
+#### June 27, 2018 
 
 **Today's Focus**: Shmup Weapons systems 
 
@@ -138,7 +142,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ----------
 <a name="day-5"></a>
-### Day 5: June 28, 2018 
+### Day 5: Health and Destroying Objects
+#### June 28, 2018 
 
 **Today's Focus**: Health and Destroying objects
 
@@ -161,7 +166,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ----------
 <a name="day-6"></a>
-### Day 6: June 29, 2018 
+### Day 6: Splitter Behavior (Environmental Hazard)
+#### June 29, 2018 
 
 **Today's Focus**: Splitter Behavior (Environmental Hazard)
 
@@ -188,7 +194,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ----------
 <a name="day-7"></a>
-### Day 7: June 30 2018 
+### Day 7: Weapons refactoring
+#### June 30 2018 
 
 **Today's Focus**: Weapons refactoring
 
@@ -207,7 +214,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ----------
 <a name="day-8"></a>
-### Day 8: July 1, 2018 
+### Day 8: Parallax Backgrounds
+#### July 1, 2018 
 
 **Today's Focus**: Parallax Backgrounds
 
@@ -227,7 +235,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ----------
 <a name="day-9"></a>
-### Day 9: July 2, 2018 
+### Day 9: Shmup Power Ups
+#### July 2, 2018 
 
 **Today's Focus**: Shmup Power Ups  
 
@@ -247,7 +256,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ---------- 
 <a name="day-10"></a>
-### Day 10: July 3, 2018 
+### Day 10: Weapon Redux - Spiral Guns
+#### July 3, 2018 
 
 **Today's Focus**: Weapon Redux - Spiral Guns
 
@@ -270,7 +280,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ----------
 <a name="day-11"></a>
-### Day 11: July 4, 2018 
+### Day 11: Bullet Reflection
+#### July 4, 2018 
 
 **Today's Focus**: Bullet Reflection
 
@@ -290,7 +301,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ----------
 <a name="day-12"></a>
-### Day 12: July 5, 2018 
+### Day 12: Steering Behaviors - Seek
+#### July 5, 2018 
 
 **Today's Focus**: Steering Behaviors - Seek
 
@@ -311,7 +323,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ---------- 
 <a name="day-13"></a>
-### Day 13: July 6, 2018 
+### Day 13: Steering Behaviors - Arrive
+#### July 6, 2018 
 
 **Today's Focus**: Steering Behaviors - Arrive
 
@@ -336,7 +349,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ---------- 
 <a name="day-14"></a>
-### Day 14: July 7, 2018 
+### Day 14: Steering Behaviors - Flee
+#### July 7, 2018 
 
 **Today's Focus**: Steering Behaviors - Flee
 
@@ -358,7 +372,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ---------- 
 <a name="day-15"></a>
-### Day 15: July 8, 2018 
+### Day 15: Steeriing Behaviors - Evade
+#### July 8, 2018 
 
 **Today's Focus**: Steering Behaviors - Evade
 
@@ -379,7 +394,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ---------- 
 <a name="day-16"></a>
-### Day 16: July 9, 2018 
+### Day 16: Steering Behavior - Wander
+#### July 9, 2018 
 
 **Today's Focus**: Steering Behaviors - Wander
 
@@ -403,7 +419,8 @@ Because arrays start at 0
 [Table of Contents](#toc)
 ---------- 
 <a name="day-17"></a>
-### Day 17: July 10, 2018 
+### Day 17: Steering Behavior - Obstacle Avoidance 
+#### July 10, 2018 
 
 **Today's Focus**: Steering Behaviors - Obstacle Avoidance
 
@@ -424,7 +441,8 @@ Because arrays start at 0
 ---------- 
 
 <a name="day-18"></a>
-### Day ?: August 2, 2018 
+### Day ?: 
+#### August 2, 2018 
 
 End. 
 
