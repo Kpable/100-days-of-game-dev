@@ -4,7 +4,7 @@
 ### Table of Contents 
 |Day                               |Focus                                   |Day                                 |Focus                                 |
 |:--------------------------------:|:--------------------------------------:|:----------------------------------:|:------------------------------------:|
-|[Day 1](#day-1)    **08/18/18**   | TBD                                    |[Day 2](#day-2)    **08/19/18**     | TBD                                  |
+|[Day 1](#day-1)    **09/16/18**   | 100 Days Log Generator                 |[Day 2](#day-2)    **09/17/18**     | TBD                                  |
 
 <!-- 
 |[Day 3](#day-3)    **08/20/18**   | Shmup World Wrap                       |[Day 4](#day-4)    **08/21/18**     | Shmup Weapons                        |
@@ -33,21 +33,24 @@ With a new perspective on this, I'm excited to give this another try. I will be 
 
 ----------
 <a name="day-1"></a>
-### Day 1: August 16, 2018 
+### Day 1: Log Generator
+#### September 16, 2018 
 
-**Today's Focus**: Learn and implement object pooling.
+**Today's Focus**: Create a form that would populate the logs for each day. 
 
 **Details**:
+	- Created a good looking form
 
-
-**Thoughts** 
+**Thoughts** My initial go at the 100 days of game development, one of the most tiresome parts were the copying and pasting to enter a new log. Not that it takes more than 5 minutes but if i can make it easier and faster to put in the entries for this, why not! I got the form more or less put together, all thats left is to make it actually generate the markdown. 
 
 **Examples**: 
 
-#### Example
-![Day 1 Example]()
+#### Front End Form
+![Front End Form](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/r2/day1/log-form.png)
 
-**Link(s) to work**: [Github]()
+**Link(s) to work**: 
+[Github](https://raw.githubusercontent.com/Kpable/kpable.github.io/master/100daysform.md)
+[Form](https://kpable.github.io/100daysform)
 
 [Table of Contents](#toc)
 ----------
