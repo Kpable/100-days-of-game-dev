@@ -4,7 +4,7 @@
 ### Table of Contents 
 |Day                               |Focus                                      |Day                                 |Focus                                       |
 |:--------------------------------:|:-----------------------------------------:|:----------------------------------:|:------------------------------------------:|
-|[Day 1](#day-1)    **09/16/18**   | Chapter 2 - State Driven Agent Design     |[Day 2](#day-2)    **09/17/18**     | 					TBD  				     |
+|[Day 1](#day-1)    **02/10/19**   | Chapter 2 - State Driven Agent Design     |[Day 2](#day-2)    **02/11/19**     | 					TBD  				     |
 
 ### Day 0: January 09, 2019 
 
