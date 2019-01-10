@@ -4,7 +4,7 @@
 ### Table of Contents 
 |Day                               |Focus                                      |Day                                 |Focus                                       |
 |:--------------------------------:|:-----------------------------------------:|:----------------------------------:|:------------------------------------------:|
-|[Day 1](#day-1)    **09/16/18**   | 100 Days Log Generator                    |[Day 2](#day-2)    **09/17/18**     | 100 Days Log Generator - Dynamic Additions |
+|[Day 1](#day-1)    **09/16/18**   | Chapter 2 - State Driven Agent Design     |[Day 2](#day-2)    **09/17/18**     | 					TBD  				     |
 
 ### Day 0: January 09, 2019 
 
