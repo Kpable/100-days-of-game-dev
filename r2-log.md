@@ -5,6 +5,21 @@
 |Day                               |Focus                                      |Day                                 |Focus                                       |
 |:--------------------------------:|:-----------------------------------------:|:----------------------------------:|:------------------------------------------:|
 |[Day 1](#day-1)    **09/16/18**   | 100 Days Log Generator                    |[Day 2](#day-2)    **09/17/18**     | 100 Days Log Generator - Dynamic Additions |
+
+### Day 0: January 09, 2019 
+
+With a new perspective on this, I'm excited to give this another try. I will be working through some AI programming by following the book, [Programming Game AI by Example](https://www.amazon.com/Programming-Example-Wordware-Developers-Library/dp/1556220782). After that, who knows. Theres a lot of game dev I am interested in.
+
+[Table of Contents](#toc)
+
+----------
+
+<!-- 
+<a name="toc"></a>
+### Table of Contents 
+|Day                               |Focus                                      |Day                                 |Focus                                       |
+|:--------------------------------:|:-----------------------------------------:|:----------------------------------:|:------------------------------------------:|
+|[Day 1](#day-1)    **09/16/18**   | 100 Days Log Generator                    |[Day 2](#day-2)    **09/17/18**     | 100 Days Log Generator - Dynamic Additions |
 |[Day 1](#day-1)    **09/18/18**   | 100 Days Log Generator - Dynamic Removals |[Day 2](#day-2)    **09/19/18**     | TBD                                        |
 
 ### Day 0: August 18, 2018 
@@ -108,3 +123,5 @@ $("#generate").click(function(){
 
 [Table of Contents](#toc)
 ----------
+
+-->
