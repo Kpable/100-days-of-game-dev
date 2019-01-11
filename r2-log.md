@@ -4,14 +4,59 @@
 ### Table of Contents 
 |Day                               |Focus                                      |Day                                 |Focus                                       |
 |:--------------------------------:|:-----------------------------------------:|:----------------------------------:|:------------------------------------------:|
-|[Day 1](#day-1)    **02/10/19**   | Chapter 2 - State Driven Agent Design     |[Day 2](#day-2)    **02/11/19**     | 					TBD  				     |
+|[Day 1](#day-1)    **01/10/19**   | Chapter 2 - State Driven Agent Design     |[Day 2](#day-2)    **01/11/19**     | Global States	         					 |
 
 ### Day 0: January 09, 2019 
 
-With a new perspective on this, I'm excited to give this another try. I will be working through some AI programming by following the book, [Programming Game AI by Example](https://www.amazon.com/Programming-Example-Wordware-Developers-Library/dp/1556220782). After that, who knows. Theres a lot of game dev I am interested in.
+With a new perspective on this, I'm excited to give this another try. I will be working through some AI programming by following the book, [Programming Game AI by Example](https://www.amazon.com/Programming-Example-Wordware-Developers-Library/dp/1556220782). It will be an interesteing challenge as the book shows its examples in C++ and does not appear to have an engine which provides some of the basic toolsets like collision detection and definition. 
+
+After that, three years ago when, a couple months into my game development journey I found a development challenge. The challege is a 10 game challenge each with progressively more difficult game play to learn with. Although I started this challenge 3 year ago, I dont give up. So I will revisit it and attempt to complete it. 
+
+So to summarize, goals for the next 100 days: 
+- Working through the book [Programming Game AI by Example](https://www.amazon.com/Programming-Example-Wordware-Developers-Library/dp/1556220782)
+- 10 Game Challenge
+  - Pong
+  - Snake
+  - Breakout
+  - Missle Command
+  - Space Invaders
+  - Asteroids
+  - Tetris
+  - Pacman
+  - Ikari Warriors 
+  - Super Mario Bros
+
+Let's see how this goes!
 
 [Table of Contents](#toc)
+----------
+<a name="day-1"></a>
+### Day 1: Chapter 2 - State Driven Agent Design
+#### January 10, 2019 
 
+**Today's Focus**: State Driven Design. 
+
+**Details**:
+	- Implementing State d
+	- Basic State machine
+
+**Thoughts** The book starts with a math and physics primer, that's why we start at Chapter 2. I did some work in the past to try to implement this so I reimported it. Spent most of today's time reading the chapter. From what I understand the State Design Pattern is the concept of defining a state such that it contains all the information it needs to perform its transitions to another state as well as getting a reference to the owner of the state so that when the state is executed it knows which agent to act on. Additionally, states would be derived from a common interface so that each state could be acted upon similarly. 
+
+The book uses the singleton pattern for each state so that there would only ever be one instance of state at any given time. There are some things I dont like too much so far about this pattern. One of them being that each state has to know what state to transition to, why, and when to do so. I can see that getting a bit tricky the more states you add in. It would be a nightmare to implement without a state transition diagram of some sort. 
+
+One of the challenges I face in going through this book is that the book is written in C++ and seems to define some primative types. Types that you would otherwise see provded for you in a game engine. I want to implement these mechanics in a way that they are reusable to me but also follows the book as i know from having peeked ahead that the book will progressively build upon and reuse the objects created from previous chapters. Got a lot to look forward to. 
+
+Tomorrow Global States, or "state blips" as the book puts it.
+
+**Examples**: 
+
+#### Agent Output
+![Agent Output](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/r2/day1/state-driven-agent.gif)
+
+**Link(s) to work**: 
+[Github](https://github.com/Kpable/Kpable-Labs/commit/b26e35978a96e356cdd4f2e39caee60f390c9a78#diff-9aedeaf1f77b8642abe528503b8c5de8)
+
+[Table of Contents](#toc)
 ----------
 
 <!-- 
