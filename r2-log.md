@@ -40,15 +40,15 @@ Let's see how this goes!
 	- Implementing State d
 	- Basic State machine
 
-**Thoughts** The book starts with a math and physics primer, that's why we start at Chapter 2. I did some work in the past to try to implement this so I reimported it. Spent most of today's time reading the chapter. From what I understand the State Design Pattern is the concept of defining a state such that it contains all the information it needs to perform its transitions to another state as well as getting a reference to the owner of the state so that when the state is executed it knows which agent to act on. Additionally, states would be derived from a common interface so that each state could be acted upon similarly. 
+**Thoughts** 
+
+The book starts with a math and physics primer, that's why we start at Chapter 2. I did some work in the past to try to implement this so I reimported it. Spent most of today's time reading the chapter. From what I understand the State Design Pattern is the concept of defining a state such that it contains all the information it needs to perform its transitions to another state as well as getting a reference to the owner of the state so that when the state is executed it knows which agent to act on. Additionally, states would be derived from a common interface so that each state could be acted upon similarly. 
 
 The book uses the singleton pattern for each state so that there would only ever be one instance of state at any given time. There are some things I dont like too much so far about this pattern. One of them being that each state has to know what state to transition to, why, and when to do so. I can see that getting a bit tricky the more states you add in. It would be a nightmare to implement without a state transition diagram of some sort. 
 
 One of the challenges I face in going through this book is that the book is written in C++ and seems to define some primative types. Types that you would otherwise see provded for you in a game engine. I want to implement these mechanics in a way that they are reusable to me but also follows the book as i know from having peeked ahead that the book will progressively build upon and reuse the objects created from previous chapters. Got a lot to look forward to. 
 
 Tomorrow Global States, or "state blips" as the book puts it.
-
-**Examples**: 
 
 #### Agent Output
 ![Agent Output](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/r2/day1/state-driven-agent.gif)
@@ -58,7 +58,52 @@ Tomorrow Global States, or "state blips" as the book puts it.
 
 [Table of Contents](#toc)
 ----------
+----------
+<a name="day-2"></a>
+### Day 2: Global State Definition
+#### January 11, 2019 
 
+**Today's Focus**: Global State Design. 
+
+**Details**:
+	- Implemented a global state
+	- implemented a second agent
+	- Templatized a singleton state
+
+**Thoughts** 
+
+This took a little longer to implement than I would've hoped. Reading through the chapter the concept was pretty simple to understand. A global state is a state in which can be triggered at any time and then reverts to the previous state when it's done. It's a lot like the "Any State" box in Unity's animator which essentially acts as a giant state machine. I did some tracing through the example source to find that the global state was being called at all times in the state machine. Which in hindsight, duh thats what would happen. But again i am translating C++ environment to C# Unity environment and of course my own coding style. Which i'm finding to be a hugely beneficial learning tool as i now have to fully understand the original implementation and think through how to translate it. 
+
+Once i figured it out i had some fun with it. My new pet robot has a 1 in 10 chance to compute life in its spare time. 
+
+
+#### Global State Output
+![Agent Output](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/r2/day2/global-state.gif)
+
+#### Text Output
+> Soft_Eng: Writing some code, making some bugs, fixing some bugs
+> Pet_Robot: I am a robot, are you amused master?
+> Soft_Eng: Writing some code, making some bugs, fixing some bugs
+> Soft_Eng: Gotta step out and take a break
+> Soft_Eng: Gonna log my hours so far
+> Pet_Robot: I am a robot, are you amused master?
+> Soft_Eng: Logging my hours so far. Total Hours: 12
+> Soft_Eng: A good day's work, time to head home
+> Soft_Eng: Alright, enough logging
+> Soft_Eng: Gotta go home
+> Pet_Robot: I am a robot, are you amused master?
+> Pet_Robot: I... am.. a... Robot?
+> Soft_Eng: So tired must sleep
+> Pet_Robot: I am a robot, are you amused master?
+> Pet_Robot: What does it mean to be a Robot?
+> Pet_Robot: SpawnThread(ComputateLife);
+> Soft_Eng: So tired must sleep
+
+**Link(s) to work**: 
+[Github](https://github.com/Kpable/Kpable-Labs/commit/5e0e26594f010a4d4f9a60b3fd71c182b838fbc6)
+
+[Table of Contents](#toc)
+----------
 <!-- 
 <a name="toc"></a>
 ### Table of Contents 
