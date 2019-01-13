@@ -5,6 +5,7 @@
 |Day                               |Focus                                      |Day                                 |Focus                                       |
 |:--------------------------------:|:-----------------------------------------:|:----------------------------------:|:------------------------------------------:|
 |[Day 1](#day-1)    **01/10/19**   | Chapter 2 - State Driven Agent Design     |[Day 2](#day-2)    **01/11/19**     | Global States	         					 |
+|[Day 3](#day-3)    **01/12/19**   | Telegrams     							   |[Day 4](#day-4)    **01/13/19**     | Message Dispatching	         			 |
 
 ### Day 0: January 09, 2019 
 
@@ -29,6 +30,7 @@ So to summarize, goals for the next 100 days:
 Let's see how this goes!
 
 [Table of Contents](#toc)
+
 ----------
 <a name="day-1"></a>
 ### Day 1: Chapter 2 - State Driven Agent Design
@@ -37,8 +39,8 @@ Let's see how this goes!
 **Today's Focus**: State Driven Design. 
 
 **Details**:
-	- Implementing State d
-	- Basic State machine
+	- Implemented state driven design
+	- Implemented basic State machine
 
 **Thoughts** 
 
@@ -54,10 +56,10 @@ Tomorrow Global States, or "state blips" as the book puts it.
 ![Agent Output](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/r2/day1/state-driven-agent.gif)
 
 **Link(s) to work**: 
-[Github](https://github.com/Kpable/Kpable-Labs/commit/b26e35978a96e356cdd4f2e39caee60f390c9a78#diff-9aedeaf1f77b8642abe528503b8c5de8)
+[Github](https://github.com/Kpable/Kpable-Labs/commit/b26e35978a96e356cdd4f2e39caee60f390c9a78)
 
 [Table of Contents](#toc)
-----------
+
 ----------
 <a name="day-2"></a>
 ### Day 2: Global State Definition
@@ -81,29 +83,55 @@ Once i figured it out i had some fun with it. My new pet robot has a 1 in 10 cha
 ![Agent Output](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/r2/day2/global-state.gif)
 
 #### Text Output
-> Soft_Eng: Writing some code, making some bugs, fixing some bugs
-> Pet_Robot: I am a robot, are you amused master?
-> Soft_Eng: Writing some code, making some bugs, fixing some bugs
-> Soft_Eng: Gotta step out and take a break
-> Soft_Eng: Gonna log my hours so far
-> Pet_Robot: I am a robot, are you amused master?
-> Soft_Eng: Logging my hours so far. Total Hours: 12
-> Soft_Eng: A good day's work, time to head home
-> Soft_Eng: Alright, enough logging
-> Soft_Eng: Gotta go home
-> Pet_Robot: I am a robot, are you amused master?
-> Pet_Robot: I... am.. a... Robot?
-> Soft_Eng: So tired must sleep
-> Pet_Robot: I am a robot, are you amused master?
-> Pet_Robot: What does it mean to be a Robot?
-> Pet_Robot: SpawnThread(ComputateLife);
-> Soft_Eng: So tired must sleep
-
+```
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 12
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I am a robot, are you amused master?
+Pet_Robot: I... am.. a... Robot?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+```
 **Link(s) to work**: 
 [Github](https://github.com/Kpable/Kpable-Labs/commit/5e0e26594f010a4d4f9a60b3fd71c182b838fbc6)
 
 [Table of Contents](#toc)
+
 ----------
+<a name="day-3"></a>
+### Day 3: Global State Definition
+#### January 12, 2019 
+
+**Today's Focus**: Telegrams
+
+**Details**:
+  - Implemented telegram structure
+  - Beginnings of integrating a message dispatcher
+
+
+**Thoughts** 
+Unfortunately not much to show today. I didnt get a chance to fully implement the message passing between my two agents. Did get the inital classes written up. 
+
+In addition to reading the chapter, i spend time comtemplating how i'd implement the telegram sending through the system. Its easy to just implement it the same way. I'm curious to how i would do it in unity with my current knowledge. I'm thinking about how this could be implemented using scriptable objects. While at the same time too much deviation may cause future problems when the book reuses previous implementations. 
+
+
+**Link(s) to work**: 
+[Github](https://github.com/Kpable/Kpable-Labs/commit/71cdc0d66614f4e4c5a998b6474cdedd7f1d6f8a)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-4"></a>
 <!-- 
 <a name="toc"></a>
 ### Table of Contents 
