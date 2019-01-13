@@ -132,6 +132,100 @@ In addition to reading the chapter, i spend time comtemplating how i'd implement
 
 ----------
 <a name="day-4"></a>
+### Day 4: Message Dispatching
+#### January 13, 2019 
+
+**Today's Focus**: Message Dispatching
+
+**Details**:
+  - Implemented message dispatching
+  - Got the two agenst to send messages to one another
+
+
+**Thoughts** 
+I like the ease of which setting up the templatized state/singleton state helped with creating new states  quickly, There were several times i had to add a few new stats and it was no problem at all. Of course the problem of not having a diagram for my example would make things worse the more i add but it wasnt too bad since i'm still dealing with single digit number of states. 
+
+The dispatching wasnt too hard to implement just a matter of making sure the message handling is plumbed through correctly. 
+
+I would really like to be able to include the debug for when messages are dispatched and queued. Perhaps i will do that tomorrow. 
+
+In any case, that is the end of Chapter 2. 
+
+What i've learned from this chapter:
+ - Finite state machines
+ - State driven design
+ - Autonomous Agents
+ - Telgram Structure
+ - Message Dispatching
+
+
+**Link(s) to work**: 
+[Github](https://github.com/Kpable/Kpable-Labs/commit/a6edfe86268bb4aaffb06d4ef278086f6958db33)
+[Full Text Output](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/r2/day4/fsm-output.txt)
+
+#### Tail End of Text Output
+```
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 39
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 42
+Soft_Eng: A week's work, time for the weekend!
+Soft_Eng: Alright, enough logging
+Soft_Eng: It's the weekend now Ekko, time to sleep buddy
+Pet_Robot: Very well Human Companion.
+Pet_Robot: Entering Standby Mode
+```
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-5"></a>
+
+
+
+
+
+
+
+
+
+
 <!-- 
 <a name="toc"></a>
 ### Table of Contents 

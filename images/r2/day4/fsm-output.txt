@@ -1,0 +1,344 @@
+
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: Logging my hours so far. Total Hours: 3
+Soft_Eng: Alright, enough logging
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 6
+Soft_Eng: Alright, enough logging
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: Logging my hours so far. Total Hours: 9
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 12
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 15
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 18
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 21
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 24
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 27
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 30
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 33
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 36
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 39
+Soft_Eng: A good day's work, time to head home
+Soft_Eng: Alright, enough logging
+Soft_Eng: Gotta go home
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: So tired must sleep
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Thats a good quick gaming session, time to go back to work
+Soft_Eng: Leaving Home
+Soft_Eng: Going To Work
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I... am.. a... Robot?
+Pet_Robot: What does it mean to be a Robot?
+Pet_Robot: SpawnThread(ComputateLife);
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Writing some code, making some bugs, fixing some bugs
+Soft_Eng: Gotta step out and take a break
+Soft_Eng: Gonna log my hours so far
+Pet_Robot: I am a robot, are you amused master?
+Soft_Eng: Logging my hours so far. Total Hours: 42
+Soft_Eng: A week's work, time for the weekend!
+Soft_Eng: Alright, enough logging
+Soft_Eng: It's the weekend now Ekko, time to sleep buddy
+Pet_Robot: Very well Human Companion.
+Pet_Robot: Entering Standby Mode
