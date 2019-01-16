@@ -6,7 +6,7 @@
 |:--------------------------------:|:-----------------------------------------:|:----------------------------------:|:------------------------------------------:|
 |[Day 1](#day-1)    **01/10/19**   | Chapter 2 - State Driven Agent Design     |[Day 2](#day-2)    **01/11/19**     | Global States	         					           |
 |[Day 3](#day-3)    **01/12/19**   | Telegrams                                 |[Day 4](#day-4)    **01/13/19**     | Message Dispatching                        |
-|[Day 5](#day-5)    **01/14/19**   | Steering Behaviors Revisited              |[Day 6](#day-6)    **01/15/19**     | TBD                                        |
+|[Day 5](#day-5)    **01/14/19**   | Steering Behaviors Revisited              |[Day 6](#day-6)    **01/15/19**     | Moving Agents                              |
 |[Day 7](#day-7)    **01/16/19**   | TBD          							               |[Day 8](#day-8)    **01/17/19**     | TBD                	         			         |
 
 ### Day 0: January 09, 2019 
@@ -237,7 +237,35 @@ Thats kind of the foundation I am working on. Its late today and i'm tired thoug
 
 ----------
 <a name="day-6"></a>
+### Day 6: Moving Agents
+#### January 15, 2019 
 
+**Today's Focus**: Vehicle Object
+
+**Details**:
+  - Worked on moving entity hierarchy used in steering calculation
+  
+
+**Thoughts** 
+
+There are several challenges i'm presented to here, some of which i've mentioned before but here int this chapter its most prominent. That is my coversion into Unity from the book's implementation. A lot of the definitions being made such as, bounding radius, position, mass, velocity, etc., are defined in components such as Transform and Rigidbody. As well as needing to have some of the functionality to inherit from MonoBehaviour. 
+
+Already thats a problem as i cannot new up a MonoBehavior derived script and i cant act on the components of a MonoBehaviour without some extra linking of components to non MonoBehaviour classes. Not ideal. 
+
+Admittedly, i am adding more to my struggles as i just realized i have been trying to mimic a 2D implementation on a 3D agent. Unfortunately just now occured to me. I'm still planning to work with 3D objects because i hope to translate all this to 3d some day but i figure i'll start with 2D and just rotate the world orientation so that. 
+
+Unfortunately this looks like it'll require more reading and redesigning on my part but i'll make it work. Not much to look at but i got the Arrive Scriptable Object steering behaviour to run. 
+
+**Link(s) to work**: 
+[Github](https://github.com/Kpable/Kpable-Labs/commit/9be48bb7ab6a912bed8217f914ea7bd0ed74c408)
+
+#### Global State Output
+![Agent Output](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/r2/day6/arrive.gif)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-7"></a>
 
 
 
