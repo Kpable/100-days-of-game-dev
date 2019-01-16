@@ -4,8 +4,10 @@
 ### Table of Contents 
 |Day                               |Focus                                      |Day                                 |Focus                                       |
 |:--------------------------------:|:-----------------------------------------:|:----------------------------------:|:------------------------------------------:|
-|[Day 1](#day-1)    **01/10/19**   | Chapter 2 - State Driven Agent Design     |[Day 2](#day-2)    **01/11/19**     | Global States	         					 |
-|[Day 3](#day-3)    **01/12/19**   | Telegrams     							   |[Day 4](#day-4)    **01/13/19**     | Message Dispatching	         			 |
+|[Day 1](#day-1)    **01/10/19**   | Chapter 2 - State Driven Agent Design     |[Day 2](#day-2)    **01/11/19**     | Global States	         					           |
+|[Day 3](#day-3)    **01/12/19**   | Telegrams                                 |[Day 4](#day-4)    **01/13/19**     | Message Dispatching                        |
+|[Day 5](#day-5)    **01/14/19**   | Steering Behaviors Revisited              |[Day 6](#day-6)    **01/15/19**     | TBD                                        |
+|[Day 7](#day-7)    **01/16/19**   | TBD          							               |[Day 8](#day-8)    **01/17/19**     | TBD                	         			         |
 
 ### Day 0: January 09, 2019 
 
@@ -216,7 +218,25 @@ Pet_Robot: Entering Standby Mode
 
 ----------
 <a name="day-5"></a>
+### Day 5: Steering Behaviors
+#### January 14, 2019 
 
+**Today's Focus**: Steering Behaviors Revisited
+
+**Details**:
+  - Imported work done with R1
+
+**Thoughts** 
+Chapter 3, My old friend. This chapter is steering behaviors and the one that caused me to stop the first round of 100 days. I explain why in the last day of the r1 log so I wont repeat myself here. 
+
+I've actually used some of that work before in attempting to convert the system to usage in a ScriptableObject fashion in allowing myself to define different Arrive behaviors for examples with different parameters and be able to hot swap them as needed. 
+
+Thats kind of the foundation I am working on. Its late today and i'm tired though so i dont have much more than the import done. Nothing pretty to look at today. 
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-6"></a>
 
 
 
