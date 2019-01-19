@@ -284,6 +284,24 @@ The obsticle avoidance implmentation i will likely change as i dont liek the con
 Wall avoidance which is similarly implemented by passing all the walls in the game world for the vehicle to iterate through to check for intersections with the some feelers of defined length. I figure i can produce the same result with some raycasting in front of the vehicle. I dont know, we'll se how that works. 
 
 [Table of Contents](#toc)
+----------
+<a name="day-8"></a>
+### Day 8: Group behaviors
+#### January 17, 2019 
+
+**Today's Focus**: Group behaviors
+
+**Details**:
+  - Reading through the chapter and different behaviors
+  - Introduction to group behaviors
+
+**Thoughts** 
+There isn't anything to show for today either  as i spent my time today reading more of the chapter to better understand the individual behaviors and the implementation. Good thing i did too since it seems the implementation of the code does not have good examples for one behavior at a time but all of them together, toggled using some flags. 
+
+It also includes the group behaviors of cohesion, alignment, and seperation which introduces the vehicles to their neighbors. I noticed a section on spacial partitioning but i will stop before then and take a look at how to implement all of the behaviors with toggle flags and summing functions. The group behaviors sounds akin to an example i read through years ago with boids. 
+
+[Table of Contents](#toc)
+
 
 
 
