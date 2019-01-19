@@ -301,7 +301,30 @@ There isn't anything to show for today either  as i spent my time today reading 
 It also includes the group behaviors of cohesion, alignment, and seperation which introduces the vehicles to their neighbors. I noticed a section on spacial partitioning but i will stop before then and take a look at how to implement all of the behaviors with toggle flags and summing functions. The group behaviors sounds akin to an example i read through years ago with boids. 
 
 [Table of Contents](#toc)
+----------
+<a name="day-9"></a>
+### Day 9: Summing Functions
+#### January 18, 2019 
 
+**Today's Focus**: Summing Functions
+
+**Details**:
+  - Sadness, lost some work
+
+**Thoughts** 
+I was going through implementing all the steering behaviors with toggle flags and wieghts as well as summing functions of weighted, prioritized and dithered but when i finished up for the day and went to commit i accidentally reverted and lost everything. So much sadness. 
+
+Good thing is i managed to save the bulk of the changes thanks to the delay of Visual Studio refreshing the project when its been modified externally. I was able to copy all my current work and attempt to recreate it. 
+Needless to say i rage quit for the day. I'll pick this back up tomorrow. 
+
+
+**Link(s) to work**: 
+[Github](https://github.com/Kpable/KLib/commit/f6d70434726211ca9b604a68133f87d56edae537)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-10"></a>
 
 
 
