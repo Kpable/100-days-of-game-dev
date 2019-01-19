@@ -256,17 +256,34 @@ Admittedly, i am adding more to my struggles as i just realized i have been tryi
 
 Unfortunately this looks like it'll require more reading and redesigning on my part but i'll make it work. Not much to look at but i got the Arrive Scriptable Object steering behaviour to run. 
 
+
+#### Agent Moving via Arrive behavior
+![Agent Output](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/r2/day6/arrive.gif)
+
 **Link(s) to work**: 
 [Github](https://github.com/Kpable/Kpable-Labs/commit/9be48bb7ab6a912bed8217f914ea7bd0ed74c408)
 
-#### Global State Output
-![Agent Output](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/r2/day6/arrive.gif)
 
 [Table of Contents](#toc)
 
 ----------
 <a name="day-7"></a>
+### Day 7: Obsticle and Wall Avoidance
+#### January 16, 2019 
 
+**Today's Focus**: Obsticle and Wall Avoidance
+
+**Details**:
+  - Reading through obsticle and wall avoidance
+
+**Thoughts** 
+I decided to read through the chapter fully before starting to implment one behavior at a time as i did last time. I found some difficulties in doing that and in reading through this time it seems that was the authors intent. 
+
+The obsticle avoidance implmentation i will likely change as i dont liek the concept of having any given vehicle track every obticle in the game world. A possibile alternative i think of now is maintaining a trigger or scanning in a radius to only get a subset of the world's obsticles. 
+
+Wall avoidance which is similarly implemented by passing all the walls in the game world for the vehicle to iterate through to check for intersections with the some feelers of defined length. I figure i can produce the same result with some raycasting in front of the vehicle. I dont know, we'll se how that works. 
+
+[Table of Contents](#toc)
 
 
 
